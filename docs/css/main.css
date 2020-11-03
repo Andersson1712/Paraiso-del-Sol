@@ -24,8 +24,8 @@ header{
   justify-content: center;
   width: 100%;
   height: 100%;
-  margin-bottom: 1rem;
-  padding: 1.5rem 0 0 0;
+  margin-bottom: 10px;
+  padding: 15px 0 0 0;
 }
 .header-img-container img{
     width: 100px;
@@ -44,15 +44,15 @@ ul{
 }
 li{
     display: inline-block;  
-    padding: 1.5rem .5rem; 
+    padding: 15px 5px; 
 }
 
 li a{
     text-decoration: none;
     color: var(--color);
     font-size: 1.8rem;
-    padding: 1.2rem 1rem;
-    margin-right: 1rem;
+    padding: 12px 10px;
+    margin-right: 10px;
 }
 .hero-image{
     background-image: url(../assets/beach-1824855_1920.jpg);
@@ -66,12 +66,12 @@ li a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 5rem;
+    margin-bottom: 50px;
 }
 h1{
     color: var(--color);
     font-size: 3rem;
-    padding: 1.5rem 1.2rem;
+    padding: 15px 12px;
     font-weight: bold;
     text-shadow: 1px 1px 2px black, 0 0 1em gray, 0 0 0.2em white;
 }
@@ -83,7 +83,7 @@ h2{
 }
 .food, .memorys{
     background-color: #fff;
-    margin-bottom: 3rem;
+    margin-bottom: 30px;
     border-bottom: solid gray 2px;
     border-radius: 20px;
     width: 90%;
@@ -97,22 +97,26 @@ h2{
     font-size: 1.8rem;
     font-weight: bold;
     color: var(--subtitle);
-    padding: 2rem 0;
-    margin: 1.2rem auto;
+    padding: 20px 0;
+    margin: 12px auto;
     width: 70%;
-    min-width: 27rem;
-    max-width: 27rem;
+    min-width: 270px;
+    max-width: 270px;
+}
+.memorys-article__image img,
+.food-article__image img{
+    width: 100%;
 }
 .memorys-article__image,
 .food-article__image
 {
     display: flex;
     justify-items: center;
-    margin: 2rem 0;
+    margin: 20px auto;
     border: solid rgba(0,0,0,0.5) .5px;
     box-shadow: 0 5px 8px black;
-    height: 20rem;
-    width: 34rem;
+    height: 200px;
+    width: 300px;
 }
 .memorys-article,
  .food-article
@@ -125,12 +129,12 @@ h2{
 }
 footer{
     background-image: var(--primary-color);
-    margin-top: 1.2rem;
+    margin-top: 12px;
 }
 footer p{
     color: var(--color);
     text-align: center;
-    padding: .8rem 0;
+    padding: 8px 0;
     font-weight: bold;
     font-size: 1.1rem;
 }
