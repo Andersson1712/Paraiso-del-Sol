@@ -1,0 +1,38 @@
+header{
+    flex-direction: row;
+    height: 10rem;
+    align-items: center;
+}
+.hero-image{
+    height: 70vh;
+}
+h1{
+    font-size: 4.5rem;
+}
+h2{
+    line-height: 3rem;
+    font-size: 1.8rem;
+}
+.header-img-container{
+    justify-content: flex-start;
+    margin-left: 4rem;
+    width: 50%;
+}
+.header-img-container img{
+    width:  80px;
+    height: 80px;
+}
+.memorys-article__image,
+.food-article__image
+{
+   width: 30%; 
+}
+footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+footer p{
+    padding: 1rem .5rem;
+    font-size: 1.5rem;
+}
